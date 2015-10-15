@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   
-  devise_for :owners
   get "/carpool" =>"carpools#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
