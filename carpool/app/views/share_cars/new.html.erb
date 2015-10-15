@@ -1,2 +1,22 @@
-<h1>ShareCars#new</h1>
-<p>Find me in app/views/share_cars/new.html.erb</p>
+<div class="container" >
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+  <h1 class="page-header"> Welcome To Dashboard</h1>
+  <div class="form-group">
+	<%=form_for @sharecar, url: {:action=>"create"}, html:{:role=>"form"} do |f|%>
+		<label for="email">Full Name:</label>
+		<div class="form-group">
+		<%=f.text_field :departure_point, :class=>"form_control", :id=>"email"%>
+		</div>
+		<label for="pwd">Email Address:</label>
+		<div class="form-group">
+		<%=f.text_field :destination, :class=>"form_control", :id=>"pwd"%>
+		</div>
+		<label for="pwd">Phone Number:</label>
+		<div class="form-group">	
+		<%=f.text_field :seats, :class=>"form_control"%>
+		</div>
+		<div class="form-group">
+		<%=f.submit("Submit", :class=>"btn btn-primary")%>
+		</div>
+</div>
+</div>
