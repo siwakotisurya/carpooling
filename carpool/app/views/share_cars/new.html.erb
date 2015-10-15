@@ -4,11 +4,11 @@
 	<%=form_for @sharecar, url: {:action=>"create"}, html:{:role=>"form"} do |f|%>
 		<label for="email">Departure Point:</label>
 		<div class="form-group">
-		<%=f.text_field :departure_point, :class=>"datepicker"%>
+		<%=f.text_field :departure_point, :class=>"form_control", :placeholder=>"eg: chabahil"%>
 		</div>
 		<label for="pwd">Destination:</label>
 		<div class="form-group">
-		<%=f.text_field :destination, :class=>"form_control", :id=>"pwd"%>
+		<%=f.text_field :destination, :class=>"form_control", :placeholder=>"baneshword"%>
 		</div>
 		<div class="form-group">
 		<%=f.submit("Submit", :class=>"btn btn-primary btn-lg")%>
@@ -17,21 +17,21 @@
 		 <div class="col-sm-4">
 <label for="email">Date From:</label>
 		<div class="form-group">
-		<%=f.text_field :departure_point, :class=>"daterange", :id=>"email", :name=>"daterange"%>
+		<%=f.text_field :date_range, :name=>"daterange",:placeholder=>"3/4/2015-3/9/2-15"%>
 		</div>
-		<label for="pwd">Date To:</label>
+		<label for="pwd">Date :</label>
 		<div class="form-group">
-		<%=f.text_field :destination, :class=>"form_control", :id=>"pwd"%>
+		<%=f.text_field :date, :class=>"datepicker", :placeholder=>"2015/06/7"%>
 		</div>
 		</div>
 		<div class="col-sm-4">
-		<label for="pwd">Seats:</label>
+		<label for="pwd">No Of Sear Available In Car</label>
 		<div class="form-group">	
-		<%=f.text_field :seats, :class=>"form_control"%>
+		<%=f.text_field :seats, :class=>"form_control", :placeholder=>"4"%>
 		</div>
 		<label for="pwd">Departure Time</label>
 		<div class="form-group">	
-		<%=f.text_field :seats, :class=>"timepicker"%>
+		<%=f.text_field :departure_time, :class=>"timepicker", :placeholder=>"3:pm"%>
 		</div>
 		</div>
 		
