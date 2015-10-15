@@ -27,6 +27,7 @@ class ShareCarsController < ApplicationController
   end
 
   def pool_car
+   
   end
 
 end
