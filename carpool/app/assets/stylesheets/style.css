@@ -24,7 +24,7 @@
 #nav_links li a{
 	color: black;
 }
-.container-fluid{
+#background_img{
 	background:url("carpool.jpg") no-repeat;
 	background-size: cover;
 	height: 700px;
