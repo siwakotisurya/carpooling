@@ -9,7 +9,7 @@
       <ul class="nav nav-sidebar">
         <li>------------------------------------------------</li>
         <li><%=link_to("Pool Car", pool_car_path)%></li>
-        <li><%=link_to "Pool Car", user_share_cars_path(current_user.id)%></li>
+        <li><%=link_to "View Share Cars", user_share_cars_path(current_user.id)%></li>
       </ul>
       <ul class="nav nav-sidebar">
         <li><%=link_to("Logout",destroy_user_session_path, method: :delete)%></li>
