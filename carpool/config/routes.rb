@@ -1,5 +1,21 @@
 Rails.application.routes.draw do
   
+  get 'share_cars/index'
+
+  get 'share_cars/new'
+
+  get 'share_cars/create'
+
+  get 'share_cars/show'
+
+  get 'share_cars/edit'
+
+  get 'share_cars/update'
+
+  get 'share_cars/delete'
+
+  get 'share_cars/destroy'
+
   devise_for :users
   
   get "/carpool" =>"carpools#index"
