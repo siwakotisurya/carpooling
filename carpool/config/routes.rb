@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   get "/carpool" =>"carpools#index"
 
   authenticated :user do
-    resources :share_cars
+    resources :users do
+      resources :share_cars
+    end
     root :to => 'share_cars#index'
     get "/pool_car" => 'share_cars#pool_car'
   end
