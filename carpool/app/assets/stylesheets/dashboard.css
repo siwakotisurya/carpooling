@@ -3,9 +3,7 @@
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-}
+
 
 
 /*
@@ -103,9 +101,7 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
-.navbar-collapse.collapse{
-  background-color: #5fcf80;
-}
+
 .nav-sidebar > li > a{
   color:white;
   font-size: 16px;
@@ -118,4 +114,7 @@ body {
  letter-spacing: 2px; 
  font-size: 20px;
  font-weight: 500;
+}
+#dashboard_nav{
+  background: black;
 }
