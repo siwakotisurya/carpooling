@@ -1,30 +1,20 @@
 Rails.application.routes.draw do
   
-  get 'share_cars/index'
-
-  get 'share_cars/new'
-
-  get 'share_cars/create'
-
-  get 'share_cars/show'
-
-  get 'share_cars/edit'
-
-  get 'share_cars/update'
-
-  get 'share_cars/delete'
-
-  get 'share_cars/destroy'
-
   devise_for :users
   
   get "/carpool" =>"carpools#index"
 
+  authenticated :user do
+    resources :share_cars
+    root :to => 'share_cars#index'
+  end
+  unauthenticated :user do
+    root :to => 'carpools#index', as: :unauthenticated_root
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'carpools#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
