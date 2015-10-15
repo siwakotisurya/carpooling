@@ -2,6 +2,7 @@ class ShareCarsController < ApplicationController
   
   layout "sharecar"
   def index
+    @breadcrum = "Dashboard"
   end
 
   def new
