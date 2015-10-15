@@ -13,10 +13,10 @@
    <div id="navbar" class="navbar-collapse collapse">
     <ul class="nav navbar-nav navbar-right" id="nav_links">
       <li>
-        <a href="http://getbootstrap.com/examples/navbar/">Sign in</a>
+        <%=link_to("Sign In", user_session_path)%>
       </li>
       <li>
-        <a href="http://getbootstrap.com/examples/navbar-static-top/">Sign up</a>
+        <%=link_to("Sign Up", new_user_registration_path)%>
       </li>
       <li>
         <a href="http://getbootstrap.com/examples/navbar-static-top/">Admin login</a>
