@@ -16,3 +16,6 @@
 //= require_tree .
 //= require moment
 //= require bootstrap-daterangepicker
+//= require jquery.timepicker.js
+
+

@@ -36,7 +36,7 @@
 		</div>
 		
 		<%end%>
-
+ <input type='text'  class='timepicker' >
 </div>
 </div>
 <script type="text/javascript">
@@ -44,3 +44,9 @@ $(function() {
     $('input[name="daterange"]').daterangepicker();
 });
 </script>
+<script>
+$('.timepicker').timepicker()
+    .on('changeTime', function(ev) {
+      alert('time has changed');
+      });
+      </script>
