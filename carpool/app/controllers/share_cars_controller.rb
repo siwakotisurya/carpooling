@@ -6,7 +6,7 @@ class ShareCarsController < ApplicationController
   end
 
   def new
-    
+    @sharecar = ShareCar.new
   end
 
   def create
