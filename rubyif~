@@ -1,0 +1,4 @@
+true && flase = false
+true || false = true
+!false = true
+

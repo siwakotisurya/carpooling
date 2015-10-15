@@ -1,0 +1,5 @@
+<%=form_for @article, html: {multipart: true} do |f|%>
+	<%=f.label :image, "Upload Your photo"%>
+	<%=f.file_field :image%>
+	<%=f.submit("save")%>
+<%end%>

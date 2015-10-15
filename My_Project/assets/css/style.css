@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+}
+#head-top{
+	background-color:#f8f8f8;
+	height: 40px;
+	margin-top: -16px;
+}
+#head-top p{
+	padding: 10px;
+	margin-left: 70px;
+}
+#nav-top{
+	float: right;
+	margin-right: 100px;
+	margin-top: -55px;
+	letter-spacing: 1px;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+	opacity: .80;
+	color: black;
+	font-size: 14px;
+}
+a:hover{
+	opacity: .99;
+}
+ul li{
+	display: inline-block;
+}
+
+.search{
+	border-style: solid;
+    border-width: 10px;
+    border-color: #f40;
+width: 580px;
+	margin-left: 350px;
+	margin-top: 40px;
+
+}
+.search-input{
+	height: 20px;
+width: 500px; 
+}
+#nav-top ul li{
+	display: inline-block;
+}
+#nav-down{
+	background: #f40;
+	height: 40px;
+	width: 290px;
+	margin-left: 75px;
+}
+#nav-down-second{
+	background: #363c4d;
+	height: 40px;
+	width: 900px;
+	margin-left: 340px;
+	margin-top: -55px;
+	padding-left: 20px;
+
+}
+#h2-nav-down-1{
+	color: white;
+	padding: 8px;
+	font-size: 18px;
+}
+#h2-second-nav-down{
+	padding-top: 8px;
+	color:white;
+	font-size: 18px;
+}
+#h2-second-nav-down-2{
+		float:right;
+		color:white;
+		margin-top: -35px;
+		margin-right: 120px;
+		font-size: 18px;
+}
+#navbar-down{
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;	
+	width: 260px;
+	height: 300px;
+	margin-left: 75px;
+	padding-top: 10px;
+}
+
+#logo{
+ background: url(../../images/sastobazar.PNG) no-repeat 6px center;
+  width: 110px;
+  height: 90px;
+  float: left;
+  margin-top: -40px;
+  margin-left: -289px; 
+  opacity: .80;
+}
+#logo:hover{
+	opacity: .90;
+}
+#left-panel{
+border-width: 3px;
+float: right;
+border-style: solid;
+margin-right:47px; 
+border-color: black;
+width: 260px;
+height: 350px;
+margin-top: -316px;
+}
+#left-panel p{
+	font-size: 16px;
+	text-align: center;
+	
+}

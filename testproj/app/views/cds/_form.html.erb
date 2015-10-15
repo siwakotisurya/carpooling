@@ -1,0 +1,25 @@
+<%= form_for(@cd) do |f| %>
+  <% if @cd.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@cd.errors.count, "error") %> prohibited this cd from being saved:</h2>
+
+      <ul>
+      <% @cd.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :cd_name %><br>
+    <%= f.text_field :cd_name %>
+  </div>
+  <div class="field">
+    <%= f.label :cd_des %><br>
+    <%= f.text_area :cd_des %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

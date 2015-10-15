@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cd name:</strong>
+  <%= @cd.cd_name %>
+</p>
+
+<p>
+  <strong>Cd des:</strong>
+  <%= @cd.cd_des %>
+</p>
+
+<%= link_to 'Edit', edit_cd_path(@cd) %> |
+<%= link_to 'Back', cds_path %>

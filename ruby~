@@ -1,0 +1,16 @@
+changing shell bash to zsh
+
+sudo chsh -s /bin/zsh "username"
+
+
+ohmy zsh 
+
+github ohmyzsh
+
+RVM installation
+
+rvm.io
+
+
+
+

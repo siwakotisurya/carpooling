@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#head_up {
+	height: 45px;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+#head_up h1 {
+	font-size: 20px;
+	padding-top: 7px;
+	margin-left: 90px; 
+}
+#nav_bar {
+	float: right;
+	margin-top: -30px;
+	margin-right: 90px;
+}
+#nav_bar li{
+	display: inline-block;
+	margin: 1em;
+}
+#nav_bar a{
+	text-decoration: none;
+}
+.search_bar{
+	height: 34px;
+	width: 620px;
+	border-style: solid;
+	margin-left: 370px;
+	border-color: #f40;
+	margin-top: 30px; 
+	border-width: 7px;
+}
+.quick_links{
+	text-align: center;
+	margin-top: 10px;
+}
+.search_box{
+	width: 550px;
+	height: 30px;
+}
+#navbar_center_1{
+	height: 40px;
+	width: 254px;
+	padding-left: 13px;
+	background-color: #f40;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+#navbar_center_1 h2{
+	font-size: 20px;
+	padding-left: 20px;
+	color: white;
+}
+#navbar_center_2{
+	height: 40px;
+	width: 930px;
+	background-color: #363c4d;
+	float: right;
+	margin-right: 37px;
+	margin-top: -40px;
+}
+#categories_nav{
+	border-width: 2px;
+	border-style: solid; 
+	border-color: black;
+	height: 400px;
+	width: 263px;
+	margin-left: 80px;
+}
+#categories_nav ul{
+	margin-left: 40px;
+	margin-top: 30px;
+}
+#categories_nav ul li{
+	margin-top: 1em;
+}
+#footer_bottom{
+	text-align: center;
+}

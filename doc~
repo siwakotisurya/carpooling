@@ -1,0 +1,60 @@
+Here Cd is a Model Name
+
+Cd.first = SELECT  "cds".* FROM "cds"  ORDER BY "cds"."id" ASC LIMIT 1
+
+Cd.last = SELECT  "cds".* FROM "cds"  ORDER BY "cds"."id" DESC LIMIT 1
+
+Here 8 is a Cd Id
+Cd.find(8) = SELECT  "cds".* FROM "cds" WHERE "cds"."id" = ? LIMIT 1  [["id", 8]]
+
+
+Cd.all = SELECT "cds".* FROM "cds"
+
+
+To get the first 3 column data from database
+Cd.first(3) =  SELECT  "cds".* FROM "cds"  ORDER BY "cds"."id" ASC LIMIT 3
+
+
+To get the last 3 column data drom database
+Cd.last(3) = SELECT  "cds".* FROM "cds"  ORDER BY "cds"."id" DESC LIMIT 3
+
+
+To search cd_name with a specific keyword
+Cd.find_by cd_name:"surya" = SELECT  "cds".* FROM "cds" WHERE "cds"."cd_name" = ? LIMIT 1  [["cd_name", "abaiu"]]
+
+
+Can also search from specific id 
+Cd.find_by id:8 = SELECT  "cds".* FROM "cds" WHERE "cds"."id" = ? LIMIT 1  [["id", 8]]
+
+Finding Sepcific field with where clause --Using questionmark while querying with database helps to prevent from database injection
+Cd.where("cd_name = ?", "asd") = SELECT "cds".* FROM "cds" WHERE (cd_name = 'asd')
+
+Finding Sepcific field with where clause
+Cd.where('cd_name = "asd"')
+
+
+Get data where ids are less than 8
+Cd.where('id < ?', 8) = SELECT "cds".* FROM "cds" WHERE (id < 8)
+
+Get data where ids are greater than 4
+Cd.where('id > ?', 4) = SELECT "cds".* FROM "cds" WHERE (id > 4)
+
+Order by Name
+Cd.order("name") = SELECT "cds".* FROM "cds"  ORDER BY name
+
+Order Name by desecding
+Cd.order("cd_name desc) = SELECT "cds".* FROM "cds"  ORDER BY cd_name dsc
+
+Order Name by ascending
+Cd.order("cd_name asc") = SELECT "cds".* FROM "cds"  ORDER BY cd_name asc
+
+
+___________________________
+
+
+
+
+
+
+
+

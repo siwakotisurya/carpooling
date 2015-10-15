@@ -1,0 +1,21 @@
+Steps
+
+Design Wireframe
+
+
+
+----------------Student Rating system
+
+Admin CRUD Student and judge i.e teacher
+
+Categories Of Student Judgement need to be generated
+	Judgement will be based on entering student subject score on each subject 
+	Judgement like % score and it should generate rating scale like merit, disctinction and fail
+	User should also be able to add comment after judging 
+
+History Of Judgement in excel should be able to import 
+
+
+Student Should be able to view their judge report
+
+ 

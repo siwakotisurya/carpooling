@@ -1,0 +1,7 @@
+<h1>Hello i am index</h1>
+
+<%@posts.each do |s|%>
+<%=s.title%>
+<%=link_to("Edit/Update",edit_post_path(s.id))%>
+<%end%>
+<%=link_to("New Todo",new_post_path)%>d

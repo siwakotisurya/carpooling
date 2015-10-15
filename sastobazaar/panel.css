@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+#top_header{
+	height: 70px;
+	width: 100%;
+	background-color: #428BCA;
+	text-align: center;
+	padding-top: 30px;
+}
+#navbar{
+	height: 500px;
+	width: 200px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+#navbar li{
+	margin-top: 50px;
+	margin-left: 50px;
+}

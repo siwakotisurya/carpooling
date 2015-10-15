@@ -1,0 +1,8 @@
+<h1>Student#new</h1>
+<p>Find me in app/views/student/new.html.erb</p>
+
+<%=form_for @student do |f|%>
+	<%=f.text_field :email%>
+	<%=f.text_field :address%>
+	<%=f.submit("Create")%>
+<%end%>
