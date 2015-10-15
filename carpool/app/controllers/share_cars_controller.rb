@@ -6,6 +6,7 @@ class ShareCarsController < ApplicationController
   end
 
   def new
+    @breadcrum = "Share Car"
     @sharecar = ShareCar.new
   end
 
