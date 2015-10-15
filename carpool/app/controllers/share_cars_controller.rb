@@ -1,4 +1,6 @@
 class ShareCarsController < ApplicationController
+  
+  layout "carpool"
   def index
   end
 
