@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   authenticated :user do
     resources :share_cars
     root :to => 'share_cars#index'
+    get "/carpools/pool_cars"
   end
   unauthenticated :user do
     root :to => 'carpools#index', as: :unauthenticated_root
