@@ -17,7 +17,7 @@
 		 <div class="col-sm-4">
 <label for="email">Date From:</label>
 		<div class="form-group">
-		<%=f.text_field :departure_point, :class=>"daterange", :id=>"email"%>
+		<%=f.text_field :departure_point, :class=>"daterange", :id=>"email", :name=>"daterange"%>
 		</div>
 		<label for="pwd">Date To:</label>
 		<div class="form-group">
@@ -40,7 +40,7 @@
 </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function() {
-  $('input[class="daterange"]').daterangepicker();
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
 });
 </script>
