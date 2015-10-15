@@ -25,4 +25,8 @@ class ShareCarsController < ApplicationController
 
   def destroy
   end
+
+  def pool_car
+  end
+
 end
