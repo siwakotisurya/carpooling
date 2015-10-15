@@ -8,7 +8,7 @@ This is a Car pooling Section
 	<div class="panel-body">
 	<div class="col-sm-6">
 	<h4>Click a Button to add Pool Car</h4>
-	<%=link_to "Click To Share Pool Car", new_share_car_path, :class=>"btn btn-primary"%>
+	<%=link_to "Click To Share Pool Car", new_user_share_car_path(current_user.id), :class=>"btn btn-primary"%>
 	</div>
 	<div class="col-sm-6">
 	<h4>Click a Button to add Pool Car</h4>
