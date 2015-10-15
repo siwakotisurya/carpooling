@@ -118,4 +118,8 @@
 }
 #dashboard_nav{
   background: black;
+  opacity: .99;
+}
+#dashboard_content{
+  margin-top: 100px;
 }
