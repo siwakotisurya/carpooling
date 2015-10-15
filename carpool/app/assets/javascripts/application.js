@@ -17,5 +17,7 @@
 //= require moment
 //= require bootstrap-daterangepicker
 //= require jquery.timepicker.js
+//= require bootstrap-datetimepicker
+//= require jquery-ui
 
 

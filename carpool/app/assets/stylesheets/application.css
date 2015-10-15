@@ -13,7 +13,8 @@
  *= require_tree .
  *= require_self
  *= require bootstrap-daterangepicker-3
-
- *= require jquery.timepicker.css
+ *= require bootstrap-datetimepicker
+ *= require jquery.timepicker
+ *= require jquery-ui
 
  */

@@ -6,6 +6,8 @@ gem "rails-bootstrap-daterangepicker"
 
 gem 'jquery-timepicker-rails'
 
+gem 'jquery-ui-rails'
+
 gem 'bootstrap-datetimepicker-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'

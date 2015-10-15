@@ -4,7 +4,7 @@
 	<%=form_for @sharecar, url: {:action=>"create"}, html:{:role=>"form"} do |f|%>
 		<label for="email">Departure Point:</label>
 		<div class="form-group">
-		<%=f.text_field :departure_point, :class=>"form_control", :id=>"email"%>
+		<%=f.text_field :departure_point, :class=>"datepicker"%>
 		</div>
 		<label for="pwd">Destination:</label>
 		<div class="form-group">
@@ -49,4 +49,10 @@ $('.timepicker').timepicker()
  
       });
       </script>
+<script>
+      $(function() {
+  $('.datepicker').datepicker();
+});
+      </script>
+
       
